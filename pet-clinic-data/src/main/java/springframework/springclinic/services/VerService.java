@@ -1,12 +1,7 @@
 package springframework.springclinic.services;
 
-import springframework.springclinic.model.Pet;
+import springframework.springclinic.model.Vet;
 
-import java.util.Set;
+public interface VerService extends CrudService<Vet,Long>{
 
-public interface VerService {
-
-    Pet findById(Long id);
-    Pet save (Pet pet);
-    Set<Pet> findAll();
 }
