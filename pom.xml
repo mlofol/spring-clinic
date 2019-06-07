@@ -14,7 +14,7 @@
     </parent>
     <groupId>springframework</groupId>
     <artifactId>spring-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>spring-clinic</name>
     <description>Clinic for pets</description>
 
@@ -39,7 +39,7 @@
             </plugin>
         </plugins>
     </build>
-    <scm><developerConnection>scm:git:https://github.com/mlofol/spring-clinic.git</developerConnection>  <tag>spring-clinic-0.0.1</tag>
+    <scm><developerConnection>scm:git:https://github.com/mlofol/spring-clinic.git</developerConnection>  <tag>HEAD</tag>
   </scm>
 
 </project>
